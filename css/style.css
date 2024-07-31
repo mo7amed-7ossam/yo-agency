@@ -821,9 +821,10 @@ main,
     position: relative;
 }
 
-@media (min-width:0px) and (max-width:410px){
-    nav .social{
-        display: none  !important;
+@media (min-width:0px) and (max-width:410px) {
+    nav .social {
+        gap: 3px;
+        margin-right: 5px;
     }
 
 }
