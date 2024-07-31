@@ -751,9 +751,9 @@ footer p {
         width: 100%;
     }
 
-    /* .social {
-        display: none !important;
-    } */
+    .social {
+        gap: 10px;
+    }
 
     .title,
     .sub-title {
