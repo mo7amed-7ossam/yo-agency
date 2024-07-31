@@ -134,14 +134,23 @@ nav .social .child {
     display: none;
 }
 
+nav .social{
+    display: flex;
+    gap: 10px;
+}
+
 nav .social a {
     text-transform: capitalize;
-    font-size: 16px;
-    background-color: #71b885;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    font-size: 18px;
     cursor: pointer;
+    color: #518861;
+    width: 35px;
+    border: solid 2px #518861;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 nav .social button:hover {
