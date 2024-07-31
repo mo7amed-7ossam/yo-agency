@@ -134,7 +134,7 @@ nav .social .child {
     display: none;
 }
 
-nav .social{
+nav .social {
     display: flex;
     gap: 10px;
 }
@@ -751,9 +751,9 @@ footer p {
         width: 100%;
     }
 
-    .social {
+    /* .social {
         display: none !important;
-    }
+    } */
 
     .title,
     .sub-title {
