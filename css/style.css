@@ -823,8 +823,12 @@ main,
 
 @media (min-width:0px) and (max-width:410px) {
     nav .social {
-        gap: 3px;
+        gap: 2px !important;
         margin-right: 5px;
+    }
+
+    nav .social a {
+        width: 25px;
     }
 
 }
