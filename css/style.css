@@ -822,6 +822,10 @@ main,
 }
 
 @media (min-width:0px) and (max-width:410px) {
+    nav .logo img {
+        width: 145px;
+    }
+
     nav .social {
         gap: 2px !important;
         margin-right: 5px;
