@@ -752,8 +752,23 @@ footer p {
     }
 
     .social {
-        gap: 10px;
+        gap: 5px !important;
+        order: 2;
+        margin-left: auto;
+        margin-right: 15px;
     }
+
+    .social a {
+        width: 30px !important;
+        font-size: 15px !important;
+    }
+
+    nav .links-con {
+        margin: 0% !important;
+        order: 3;
+    }
+
+
 
     .title,
     .sub-title {
